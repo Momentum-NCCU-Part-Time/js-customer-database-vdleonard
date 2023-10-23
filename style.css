@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: solid 15px purple;
+}
+/* customer div is not even showing up inside constianer */
+.customer {
+  border: solid 15px red;
+}
