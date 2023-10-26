@@ -2,12 +2,53 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .container {
-  border: solid 15px purple;
+  display: flex;
+  flex: 1 1 25%;
+  flex-flow: wrap;
+  align-content: ;
+  /* border: solid 15px purple; */
 }
-/* customer div is not even showing up inside constianer */
-.customer {
-  border: solid 15px red;
+
+.cust-info {
+  display: flex;
+  flex: 1 1 25%;
+  flex-direction: column;
+  max-width: 100%;
+  /* border: solid 15px red;
+  background-color: grey; */
+  padding: 30px;
+  text-align: center;
+  font-size: larger;
+}
+
+.cust-pfp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 40% 60%;
+  max-width: 20vh;
+  height: auto;
+}
+
+h2 {
+  padding-top: 5px;
+}
+
+.cust-email {
+  color: grey;
+  padding: 8px 0px;
+}
+
+.cust-address {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.cust-dates {
+  list-style-type: none;
 }
