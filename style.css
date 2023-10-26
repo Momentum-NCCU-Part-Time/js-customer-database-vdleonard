@@ -9,8 +9,6 @@
   display: flex;
   flex: 1 1 25%;
   flex-flow: wrap;
-
-  /* border: solid 15px purple; */
 }
 
 .cust-info {
@@ -18,8 +16,7 @@
   flex: 1 1 25%;
   flex-direction: column;
   max-width: 100%;
-  /* border: solid 15px red;
-  background-color: grey; */
+
   padding: 30px;
   text-align: center;
   font-size: larger;
